@@ -1,0 +1,105 @@
+#topbanner{
+	display: flex;
+}
+
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+#logo{
+	width: 40%;
+	position: absolute;
+}
+
+#menu {
+	width: 5%;
+	position: absolute;
+}
+
+#signin {
+	width: 5%;
+	position: absolute;
+}
+
+#logo, #topbanner > div, h1, #topbanner > h2{
+	position: absolute;
+}
+
+#logo{
+	transform: translate(10%, 20%);
+}
+
+#topbanner > div {
+	transform: translate(42%,60%);
+}
+
+#menu{
+	transform: translate(0, -20%);
+}
+
+#topbanner > h2 {
+	transform: translate(35%, 100%);
+	background-color: grey;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+h1{
+	transform: translate(25%, 150%);
+}
+
+body{
+	font-family: 'New Rocker', cursive;
+	text-align: left ;
+}
+
+h1{
+	font-family: 'Monoton', cursive;
+	font-size: 200%;
+	color: #12E3E3;
+	position: absolute;
+}
+
+h2{
+	font-size: 96px;
+	position: absolute;
+	padding: 20px;
+	background-color: white;
+}
+
+p{
+	font-family: 'New Rocker', cursive;
+	font-size: 64px ;
+
+}
+
+.Tutorial{
+	width: 50%;
+	object-fit: cover;
+}
+
+li{
+	list-style-type: none;
+	padding: 30px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.bannerthings{
+	position: absolute;
+}
+
+#signin{
+
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
